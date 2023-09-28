@@ -29,7 +29,7 @@ public class QRCode {
     public static QRCode buildCode() {
         // Builds a QR Code for the authenticator app.
 
-        /** TODO-2: [TO DO/DONE]
+        /** TODO-2: [DONE]
          *  review the implementation of this class to understand how it is implemented.
          *  no code here, but try to get the gist of what's going on.
          */

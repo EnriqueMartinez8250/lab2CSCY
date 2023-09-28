@@ -56,8 +56,25 @@ public class Library {
      */
     // ########################################################## //
     public boolean logIn(String username, String password, String verificationCode){
+        User user = getUser(username, password); // this theoretically retreives a user object by its username
 
-        // your code here
+        if (user == null) {
+            return false;
+        }
+
+        if (!user.getPassword().equals(password)) {
+            // if pw is incorrect
+            return false;
+        }
+
+        if (!user.getQRCode().validateCode(verificationCode)) {
+            // if verif code is wrong
+            return false;
+        }
+        else{
+            return true;
+        }
+        // if pw and verif code are both correct
 
     }
     // ########################################################## //

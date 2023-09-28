@@ -6,7 +6,7 @@ import jakarta.ws.rs.core.Application;
 @ApplicationPath("/api")
 public class HelloApplication extends Application {
 
-/** TODO-1: [TO DO/DONE]
+/** TODO-1: [DONE]
  * - Install tomcat if you haven't done that.
  * - Make sure you update the tomcat run configuration to the proper path.
  * - do not remove the todos tags. After completed, replace the [TO DO/DONE] with [DONE]

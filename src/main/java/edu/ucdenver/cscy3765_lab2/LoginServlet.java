@@ -77,6 +77,11 @@ public class LoginServlet extends HttpServlet {
     private boolean authenticateUser(String username, String password, String verificationCode, Library lib) {
         // Perform secure authentication here
 
+        // Return bool
+        return lib.logIn(username, password, verificationCode);
+    }
+
+
         // YOUR CODE HERE
 
     }

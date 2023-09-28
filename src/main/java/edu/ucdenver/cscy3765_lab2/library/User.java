@@ -43,12 +43,15 @@ public class User {
         return username;
     }
 
-    /** TODO-6: [TO DO/DONE]
+    /** TODO-6: [DONE]
      *  add a getter for your QRCode variable
      */
     // ########################################################## //
 
-    //your code here
+    public QRCode getQRCode() {
+        return QRCode;
+    }
+
 
     // ########################################################## //
 }
